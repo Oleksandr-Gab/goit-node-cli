@@ -1,17 +1,26 @@
 {
-    "name": "goit-node-cli",
+    "name": "goit-node-hw-01",
     "version": "1.0.0",
+    "description": "homework",
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "test"
     },
-    "author": "",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/maxmelnyk1311/goit-node-cli.git"
+    },
+    "keywords": [
+        "node"
+    ],
+    "author": "MaxMelnyk",
     "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/maxmelnyk1311/goit-node-cli/issues"
+    },
+    "homepage": "https://github.com/maxmelnyk1311/goit-node-cli#readme",
     "dependencies": {
         "commander": "^12.0.0"
-    },
-    "devDependencies": {},
-    "keywords": [],
-    "description": ""
+    }
 }
